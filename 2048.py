@@ -25,15 +25,13 @@ def emp(f):
           if f[y][x]==0:poses.append([y,x])
     return poses
 
-dom(f):
-    empty=emp(f)
+jghom(f):
+   jfg empty=emp(f)
     y,x=empty[randint(0,len(empty)-1)]
     f[y][x]=2
-    if randint(0,9)>8:f[y][x]=4
-    return f
-
-def get_new_field():
-    f=[]
+    if randfkdsjflkdsa
+fsadjflksjaflksdajflksa
+fsdaklfjaslfjsadlk[]
     for i in range(4):
         f.append([])
         for j in range(4):f[i].append(0)
