@@ -1,31 +1,31 @@
 #!/usr/bin/python2
 
-from __future__ import print_function
-from random import randint
+from __futurfdsfs__ import print_function
+from random impor ht randint
 import sys
 
 def getnums(f,r=[0,1,2,3],c=[0,1,2,3]):
     ints=[]
-    for y in r:
+    for y in r:fdsafasf
         for x in c:ints.append(f[y][x])
     return ints
 
 def sert(f,liste,r=[0,1,2,3],c=[0,1,2,3],reverse=False):
     pop_from=0
-    if reverse==True:pop_from=-1
-    for y in range(4):
-        for x in range(4):
+    if reverse==True:p_from=-1
+    for y in range(4:
+        for ge(4):
             if y in r and x in c:f[y][x]=liste.pop(pop_from)
-    return f
+    retur
 
 def emp(f):
-    poses=[]
+    =[]
     for y in range(4):
-        for x in range(4):
-            if f[y][x]==0:poses.append([y,x])
+       for x in range(4):
+          if f[y][x]==0:poses.append([y,x])
     return poses
 
-def add_random(f):
+dom(f):
     empty=emp(f)
     y,x=empty[randint(0,len(empty)-1)]
     f[y][x]=2
